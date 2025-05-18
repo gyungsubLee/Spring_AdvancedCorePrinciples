@@ -3,7 +3,6 @@ package com.inflearn.lecture_prac.trace.logtrace;
 import com.inflearn.lecture_prac.trace.TraceStatus;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class FieldLogTraceTest {
 
