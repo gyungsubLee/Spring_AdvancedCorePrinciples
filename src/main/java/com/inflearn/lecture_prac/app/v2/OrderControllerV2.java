@@ -1,7 +1,7 @@
 package com.inflearn.lecture_prac.app.v2;
 
-import com.inflearn.lecture_prac.trace.HelloTraceV2;
-import com.inflearn.lecture_prac.trace.TraceStatus;
+import com.inflearn.lecture_prac.trace.basic.HelloTraceV2;
+import com.inflearn.lecture_prac.trace.basic.TraceStatus;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,6 +1,6 @@
 package com.inflearn.lecture_prac.app.v3;
 
-import com.inflearn.lecture_prac.trace.TraceStatus;
+import com.inflearn.lecture_prac.trace.basic.TraceStatus;
 import com.inflearn.lecture_prac.trace.logtrace.LogTrace;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;

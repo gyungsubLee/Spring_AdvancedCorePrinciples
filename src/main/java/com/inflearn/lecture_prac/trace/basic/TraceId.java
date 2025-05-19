@@ -1,4 +1,4 @@
-package com.inflearn.lecture_prac.trace;
+package com.inflearn.lecture_prac.trace.basic;
 
 import java.util.UUID;
 

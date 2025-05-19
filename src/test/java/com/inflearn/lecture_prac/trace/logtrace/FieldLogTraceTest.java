@@ -1,6 +1,6 @@
 package com.inflearn.lecture_prac.trace.logtrace;
 
-import com.inflearn.lecture_prac.trace.TraceStatus;
+import com.inflearn.lecture_prac.trace.basic.TraceStatus;
 import org.junit.jupiter.api.Test;
 
 

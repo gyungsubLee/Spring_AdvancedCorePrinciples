@@ -1,12 +1,12 @@
-package com.inflearn.lecture_prac.trace;
+package com.inflearn.lecture_prac.trace.basic;
+
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
-
 @Slf4j
 @Component
-public class HelloTraceV2 {
+public class HelloTraceV1 {
 
     private static final String START_PREFIX = "-->";
     private static final String COMPLETE_PREFIX = "<--";
@@ -17,13 +17,6 @@ public class HelloTraceV2 {
         Long startTimeMs = System.currentTimeMillis();
         log.info("[{}] {}{}", traceId.getId(), addSpace(START_PREFIX, traceId.getLevel()), message);
         return new TraceStatus(traceId, startTimeMs, message);
-    }
-
-    public TraceStatus beginSync (TraceId beforeTraceId, String message) {
-        TraceId nextId = beforeTraceId.createNextId();
-        Long startTimeMs = System.currentTimeMillis();
-        log.info("[{}] {}{}", nextId.getId(), addSpace(START_PREFIX, nextId.getLevel()), message);
-        return new TraceStatus(nextId, startTimeMs, message);
     }
 
     public void end(TraceStatus status) {

@@ -1,8 +1,8 @@
 package com.inflearn.lecture_prac.trace;
 
+import com.inflearn.lecture_prac.trace.basic.HelloTraceV2;
+import com.inflearn.lecture_prac.trace.basic.TraceStatus;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class HelloTraceV2Test {
 
