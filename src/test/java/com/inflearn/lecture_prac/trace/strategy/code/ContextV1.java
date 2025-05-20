@@ -1,6 +1,6 @@
 package com.inflearn.lecture_prac.trace.strategy.code;
 
-import com.inflearn.lecture_prac.trace.strategy.code.Strategy;
+import com.inflearn.lecture_prac.trace.strategy.code.strategy.Strategy;
 import lombok.extern.slf4j.Slf4j;
 
 /**
