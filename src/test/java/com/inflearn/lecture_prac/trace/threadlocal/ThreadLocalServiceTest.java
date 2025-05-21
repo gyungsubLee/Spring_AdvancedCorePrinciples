@@ -1,6 +1,6 @@
 package com.inflearn.lecture_prac.trace.threadlocal;
 
-import com.inflearn.lecture_prac.trace.threadlocal.code.ThreadLocalService;
+import com.inflearn.lecture_prac.template_strategy.trace.threadlocal.code.ThreadLocalService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 

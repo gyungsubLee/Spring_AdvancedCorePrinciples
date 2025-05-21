@@ -1,7 +1,7 @@
 package com.inflearn.lecture_prac.trace;
 
-import com.inflearn.lecture_prac.trace.basic.HelloTraceV1;
-import com.inflearn.lecture_prac.trace.basic.TraceStatus;
+import com.inflearn.lecture_prac.template_strategy.trace.basic.HelloTraceV1;
+import com.inflearn.lecture_prac.template_strategy.trace.basic.TraceStatus;
 import org.junit.jupiter.api.Test;
 
 class HelloTraceV1Test {
