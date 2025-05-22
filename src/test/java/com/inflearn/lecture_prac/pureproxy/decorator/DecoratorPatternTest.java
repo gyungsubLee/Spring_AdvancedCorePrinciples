@@ -1,9 +1,6 @@
 package com.inflearn.lecture_prac.pureproxy.decorator;
 
-import com.inflearn.lecture_prac.pureproxy.decorator.code.Component;
-import com.inflearn.lecture_prac.pureproxy.decorator.code.DecoratorPatternClient;
-import com.inflearn.lecture_prac.pureproxy.decorator.code.MessageDecorator;
-import com.inflearn.lecture_prac.pureproxy.decorator.code.RealComponent;
+import com.inflearn.lecture_prac.pureproxy.decorator.code.*;
 import org.junit.jupiter.api.Test;
 
 public class DecoratorPatternTest {
@@ -20,6 +17,15 @@ public class DecoratorPatternTest {
         Component realComponent = new RealComponent();
         Component messageDecorator = new MessageDecorator(realComponent);
         DecoratorPatternClient client = new DecoratorPatternClient(messageDecorator);
+        client.execute();
+    }
+
+    @Test
+    void decorator2() {
+        Component realComponent = new RealComponent();
+        Component messageDecorator = new MessageDecorator(realComponent);
+        Component timeDecorator = new TimeDecorator(messageDecorator);
+        DecoratorPatternClient client = new DecoratorPatternClient(timeDecorator);
         client.execute();
     }
 }
