@@ -1,7 +1,8 @@
 package com.inflearn.lecture_prac.proxy.app.v1;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 @RequiredArgsConstructor
 public class OrderControllerV1Impl implements OrderControllerV1 {
 
