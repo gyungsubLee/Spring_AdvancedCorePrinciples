@@ -11,13 +11,13 @@ public class OrderControllerV2 {
 
     private final OrderServiceV2 orderService;
 
-    @GetMapping("/v2/request")
+//    @GetMapping("/v2/request")
     public String request(@RequestParam String itemId) {
         orderService.orderItem(itemId);
         return "ok";
     }
 
-    @GetMapping("/v2/no-log")
+//    @GetMapping("/v2/no-log")
     public String noLog() {
         return "ok";
     }
