@@ -1,6 +1,6 @@
 package com.inflearn.lecture_prac.proxy.app.trace.logtrace;
 
-import com.inflearn.lecture_prac.template_strategy.trace.basic.TraceStatus;
+import com.inflearn.lecture_prac.proxy.app.trace.TraceStatus;
 
 public interface LogTrace {
 

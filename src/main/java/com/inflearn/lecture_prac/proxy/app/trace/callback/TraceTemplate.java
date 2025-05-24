@@ -1,7 +1,7 @@
 package com.inflearn.lecture_prac.proxy.app.trace.callback;
 
+import com.inflearn.lecture_prac.proxy.app.trace.TraceStatus;
 import com.inflearn.lecture_prac.proxy.app.trace.logtrace.LogTrace;
-import com.inflearn.lecture_prac.template_strategy.trace.basic.TraceStatus;
 
 public class TraceTemplate {
 

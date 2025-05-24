@@ -1,7 +1,7 @@
 package com.inflearn.lecture_prac.proxy.app.trace.logtrace;
 
-import com.inflearn.lecture_prac.template_strategy.trace.basic.TraceId;
-import com.inflearn.lecture_prac.template_strategy.trace.basic.TraceStatus;
+import com.inflearn.lecture_prac.proxy.app.trace.TraceId;
+import com.inflearn.lecture_prac.proxy.app.trace.TraceStatus;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

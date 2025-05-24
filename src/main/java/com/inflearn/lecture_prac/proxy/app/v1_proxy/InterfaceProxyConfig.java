@@ -11,14 +11,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class InterfaceProxyConfig {
 
-    @Bean
-    LogTrace logTrace() {
-        return new ThreadLocalLogTrace();
-    }
+    LogTrace logTrace;
 
     @Bean
     OrderControllerV1 target() {
-        return new OrderControllerV1Impl(orderService(logTrace()));
+        return new OrderControllerV1Impl(orderService(logTrace));
     }
 
     @Bean

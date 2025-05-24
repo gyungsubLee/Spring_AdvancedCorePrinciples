@@ -1,8 +1,8 @@
 package com.inflearn.lecture_prac.proxy.app.v1_proxy.interface_proxy;
 
+import com.inflearn.lecture_prac.proxy.app.trace.TraceStatus;
 import com.inflearn.lecture_prac.proxy.app.trace.logtrace.LogTrace;
 import com.inflearn.lecture_prac.proxy.app.v1.OrderRepositoryV1;
-import com.inflearn.lecture_prac.template_strategy.trace.basic.TraceStatus;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
